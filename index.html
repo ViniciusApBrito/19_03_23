@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" refesrrerpolicy="no-referrer" />
+
+    <title>Calculadora IMC</title>
+
+</head>
+
+<body>
+    <nav>
+        <h1 class="h">Vinicius Brito - Terceiro projeto</h1>
+    </nav>
+    <h1 class="h">Calculadora IMC</h1>
+    <div class="divA">
+        <form>
+            <div
+                style="display: flex; flex-direction: row; justify-content: center; text-align: center; align-items: flex-start;">
+                <INPUT type="radio" id="Sexo" name="Sexo" value="Homem"> Masculino
+                <INPUT type="radio" id="Sexo" name="Sexo" value="Mulher">Feminino
+            </div>
+            <h3 class="h"> Diga sua Altura</h3>
+            <input class="resultados" id="Altura" type="text" placeholder="Informe sua altura"></input>
+            <br>
+            <h3 class="h">Diga seu peso</h3>
+            <input class="resultados" id="Peso" type="text" placeholder="Informe seu peso"></input>
+            <p></p>
+            <button class="Calcular" type="button" onclick="IMC()">Calcular</button>
+            <br>
+            <p></p>
+            <input class="resultados" id="RespostaIndice" type="text" placeholder="Indice" disabled></input>
+            <input class="resultados" id="RespostaClassificacao" type="text" placeholder="classificação"
+                disabled></input>
+        </form>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
